@@ -1,7 +1,5 @@
 package org.example.HomeWork;
 
-public class Shape{
-public void addShape(Printable printable){
-    printable.print();
-}
+ public abstract class Shape {
+     public void printName(){};
 }

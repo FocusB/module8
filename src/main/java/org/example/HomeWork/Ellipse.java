@@ -1,8 +1,8 @@
 package org.example.HomeWork;
 
-public class Ellipse implements Printable{
+public class Ellipse extends Shape{
     @Override
-    public void print() {
+    public void printName() {
         System.out.println("Ellipse");
     }
 }

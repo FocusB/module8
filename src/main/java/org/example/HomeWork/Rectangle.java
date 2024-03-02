@@ -1,8 +1,8 @@
 package org.example.HomeWork;
 
-public class Rectangle implements Printable{
+public class Rectangle extends Shape{
     @Override
-    public void print() {
+    public void printName() {
         System.out.println("Rectangle");
     }
 }

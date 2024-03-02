@@ -1,8 +1,8 @@
 package org.example.HomeWork;
 
-public class Squad implements Printable {
+public class Squad extends Shape{
     @Override
-    public void print(){
+    public void printName() {
         System.out.println("Squad");
     }
 }

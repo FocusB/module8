@@ -2,10 +2,16 @@ package org.example.HomeWork;
 
 public class Demo {
     public static void main(String[] args) {
-        new Shape().addShape(new Circle());
-        new Shape().addShape(new Squad());
-        new Shape().addShape(new Cube());
-        new Shape().addShape(new Ellipse());
-        new Shape().addShape(new Rectangle());
+        PrintShape printShape = new PrintShape();
+        Circle circle = new Circle();
+        Cube cube = new Cube();
+        Ellipse ellipse = new Ellipse();
+        Rectangle rectangle = new Rectangle();
+        Squad squad = new Squad();
+        printShape.printNameShape(circle);
+        printShape.printNameShape(cube);
+        printShape.printNameShape(ellipse);
+        printShape.printNameShape(rectangle);
+        printShape.printNameShape(squad);
     }
 }
